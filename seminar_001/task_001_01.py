@@ -7,4 +7,4 @@
 
 n = int(input('Номер дня недели: '))
 
-print('да' if 1 <= n <= 7 and n in (6, 7) else 'нет')
+print('да' if n in (6, 7) else 'нет')
